@@ -1,0 +1,1 @@
+body{width:500px;display:flex;flex-direction:column;flex-flow:space-around;background-color:#65647C}body *{align-self:center;width:calc(100% - 2 * 10px);margin:10px}body input,body button{background:#D9D9D9;box-shadow:5px 5px;height:70px;padding:10px;font-size:52.5px;border-radius:10px}body button:hover{box-shadow:inset 5px 5px}body img{width:80%;height:auto}

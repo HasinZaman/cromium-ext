@@ -1,0 +1,47 @@
+$margin: 10px;
+$box_shadow: 5px;
+body {
+    width: 500px;
+
+    display: flex;
+    flex-direction: column;
+
+    flex-flow: space-around;
+
+    background-color: #65647C;
+
+
+    *{
+        align-self: center;
+
+        width: calc(100% - 2 * #{$margin});
+        
+        margin: $margin;
+    }
+
+    input, button{
+        $padding: 10px;
+        $height: 90px;
+        $font_size: .75;
+        
+        background: #D9D9D9;
+        
+        box-shadow: #{$box_shadow} #{$box_shadow};
+        
+        height: $height - $padding * 2;
+        padding: $padding;
+
+        font-size: ($height - $padding * 2) * $font_size;
+
+        border-radius: 10px;
+    }
+
+    button:hover{
+        box-shadow: inset #{$box_shadow} #{$box_shadow};
+    }
+
+    img {
+        width: 80%;
+        height: auto;
+    }
+}
